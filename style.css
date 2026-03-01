@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.container {
+    background-color: white;
+    text-align: center; /* Center all text inside */
+    border-radius: 15px;  /* Rounded corners */
+    box-shadow: 20px;
+    width: 350px; /* Fixed width for the card */
+    overflow: hidden; /* makes sure everything stays within container*/
+ }
+
+ .dancing-img{
+    width: 100%; /* Make image fill card width */
+ }
+
+  .content{
+    padding: 2rem;
+ }
+
+
+P{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+}
+
+.plan-box{
+    background-color: hsl(225, 100%, 98%); 
+    border-radius: 10px; 
+    padding: 1rem; /* Space inside the box */
+    display: flex; /* Use flexbox to arrange content horizontally */
+    justify-content: space-between; /* Space between plan info and  change link */
+    align-items: center;
+    margin-bottom: 1.5rem; /* Space below the box */
+}
+
+.plan-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.btn-pay{
+    font-family: inherit; 
+    background-color:  hsl(245, 75%, 52%);
+    color:white;
+    border: none;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 6px;
+    font-weight: bold;
+    
+}
+
+.btn-cancel{
+    font-family: inherit;
+    border: none;
+    background: none;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-link{
+    font-weight: bold;
+    text-decoration: underline;  /* Underlined by default */
+    font-size: 14px;
+   
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+
+
+
+
